@@ -1,4 +1,6 @@
 import _ from 'lodash';
+import Print from './print';
+
 import './style.css';
 import Icon from './pig.jpg';
 
@@ -13,6 +15,11 @@ function component() {
 
   element.appendChild(myIcon);
 
+  // add button
+  const btn = document.createElement('button');
+  btn.innerHTML = 'Click me and check the console!';
+  btn.onclick = Print;
+  element.appendChild(btn);
 
   return element;
 }
