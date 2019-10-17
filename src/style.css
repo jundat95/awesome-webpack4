@@ -1,4 +1,12 @@
-.hello {
-  color: red;
-  background: url('./icon.png');
-}
+ @font-face {
+   font-family: 'MyFont';
+   src: url('./Cattus.otf');
+   font-weight: 900;
+   font-style: bold;
+ }
+
+ .hello {
+   color: red;
+   font-family: 'MyFont';
+   background: url('./icon.png');
+ }
