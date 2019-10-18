@@ -2,6 +2,74 @@
 # yarn lockfile v1
 
 
+"@angular/animations@^8.2.11":
+  version "8.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-8.2.11.tgz#2e746cf1163cdc1d451020c8280f54dbd912f9d2"
+  integrity sha512-u0PSR2uvSqn3ovgGlw2H8ZueyYN42SLir2Yn3+7sGE+LcYOSTjyJ/GIgjV8jWddvPbx7KYzFRCs6bEMpBsMXYg==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/common@^8.2.11":
+  version "8.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-8.2.11.tgz#8203618e32f01ebd3b19368e41e2a25371a6ea72"
+  integrity sha512-AN8KKv13rVN1vwyVszZ1POvuUequ7jNC7Af/IDuxTJXKUDCI44dvjYQI0hbCicDDV+XZgjdkd4CBIiLCZRKnOQ==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/compiler@^8.2.11":
+  version "8.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-8.2.11.tgz#fe1da7b83cbd4dd4c59d784d7a5caf593003a885"
+  integrity sha512-Qnh07i04s0LZECEKu9/NHwdRutfEs9N3y8f0uMdC+m7Cjy3guvmLtriAMdnxlH3KFFFSnugM6Ng6+gII8tZI6A==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/core@^8.2.11":
+  version "8.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-8.2.11.tgz#85d1feca5ab7423ddc7468dd03ebe7c1ed7f3f06"
+  integrity sha512-TRfoJPcTjjiFh1dquqDc7LDI4sqD/LPCC9y2HP4r8644xJawhPJ0Ms6gWaeobCeP2k0vKsjrFmbPWeolOig/YA==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/forms@^8.2.11":
+  version "8.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.2.11.tgz#7d81e38cb1b53d3abd7f039575e2e5c60d50f18e"
+  integrity sha512-9sXLvAgscGwoE7k9kwRPogPSx8B8kT+kbXCvkL3Az+C+HrEuQ3rwMIJEFO+OhOCkRwrdUniKsp7GHLw94jAqtQ==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/http@^7.2.15":
+  version "7.2.15"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-7.2.15.tgz#a32bea9e67e99eef88150085aeebbe7aeecd39eb"
+  integrity sha512-TR7PEdmLWNIre3Zn8lvyb4lSrvPUJhKLystLnp4hBMcWsJqq5iK8S3bnlR4viZ9HMlf7bW7+Hm4SI6aB3tdUtw==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/platform-browser-dynamic@^8.2.11":
+  version "8.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-8.2.11.tgz#e6bdcc8bb7adb097b63be33cdf69d08e9b5dc8d4"
+  integrity sha512-0DyO7N2HTQdV0OQJiLy3ZWimvdBgPHPbTP62l/Qc+ieZzA86KU8jWjbtyUOdqXkyEQ9gcpWEpxX9dBH8nW74jg==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/platform-browser@^8.2.11":
+  version "8.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-8.2.11.tgz#ad784641c54760704a620e8e1f813a9c1570f90d"
+  integrity sha512-bKDkC7kpNvgvRQfw4s+84GJWrY7MPFx9d1bUk9OPQzEBAjzRX+E6IFlqfTpZRGy4m5rbSzBk3bpZdqcZSJM98A==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/router@^8.2.11":
+  version "8.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-8.2.11.tgz#3925f0e9840ce0c9002eb154f1f7cd998994a15d"
+  integrity sha512-US8vp9TiryAVoLZwKZqApG6OvRizlJh6k+YA40/Z+fZBFIFM+Og80yiuUJ+p29unheVqA/tvAHmBdBrLNaliJA==
+  dependencies:
+    tslib "^1.9.0"
+
+"@tuxjs/eventbus@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tuxjs/eventbus/-/eventbus-1.0.3.tgz#0f9d6ea7e4d354b58478eed004d66059be113437"
+  integrity sha512-0JYdPgopQ2MgHXD7GljYM4YSsHKyD3POcjW4ihFEWmksiyl2Jeemez7J0yGjnN63A+uBjLPYe/TE0YVdibiZHA==
+
 "@types/anymatch@*":
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@types/anymatch/-/anymatch-1.3.1.tgz#336badc1beecb9dacc38bea2cf32adf627a8421a"
@@ -3509,6 +3577,13 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
+rxjs@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.3.tgz#510e26317f4db91a7eb1de77d9dd9ba0a4899a3a"
+  integrity sha512-wuYsAYYFdWTAnAaPoKGNhfpWwKZbJW+HgAJ+mImp+Epl7BG8oNWBCTyRM8gba9k4lk8BgWdoYm21Mo/RYhhbgA==
+  dependencies:
+    tslib "^1.9.0"
+
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
@@ -4330,6 +4405,13 @@ webpack-log@^2.0.0:
   dependencies:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
+
+webpack-merge@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/webpack-merge/-/webpack-merge-4.2.2.tgz#a27c52ea783d1398afd2087f547d7b9d2f43634d"
+  integrity sha512-TUE1UGoTX2Cd42j3krGYqObZbOD+xF7u28WB7tfUordytSjbWTIjK/8V0amkBfTYN4/pB/GIDlJZZ657BGG19g==
+  dependencies:
+    lodash "^4.17.15"
 
 webpack-sources@^1.4.0, webpack-sources@^1.4.1:
   version "1.4.3"

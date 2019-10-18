@@ -4,11 +4,12 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build:dev": "yarn clear && npx webpack --config webpack.config.dev.js && yarn copy",
-    "build:prod": "npx webpack --config webpack.config.js",
+    "build:dev": "yarn clear && npx webpack --config webpack.config.dev.js && yarn copyIndex && yarn copyDetail",
+    "build:prod": "yarn clear && npx webpack --config webpack.config.prod.js && yarn copyIndex && yarn copyDetail",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
-    "copy": "cp index.html ./dist/index.html",
+    "copyIndex": "cp index.html ./dist/index.html",
+    "copyDetail": "cp detail.html ./dist/detail.html",
     "clear": "rm -r dist"
   },
   "devDependencies": {
@@ -20,9 +21,21 @@
     "vnrm": "^0.0.11",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2"
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "@angular/animations": "^8.2.11",
+    "@angular/common": "^8.2.11",
+    "@angular/compiler": "^8.2.11",
+    "@angular/core": "^8.2.11",
+    "@angular/forms": "^8.2.11",
+    "@angular/http": "^7.2.15",
+    "@angular/platform-browser": "^8.2.11",
+    "@angular/platform-browser-dynamic": "^8.2.11",
+    "@angular/router": "^8.2.11",
+    "@tuxjs/eventbus": "^1.0.3",
+    "lodash": "^4.17.15",
+    "rxjs": "^6.5.3"
   }
 }
