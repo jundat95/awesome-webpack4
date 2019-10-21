@@ -4,14 +4,18 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build:dev": "yarn clear && npx webpack --config webpack.config.dev.js && yarn copyIndex && yarn copyDetail",
-    "build:prod": "yarn clear && npx webpack --config webpack.config.prod.js && yarn copyIndex && yarn copyDetail",
+    "build:dev": "yarn clear && npx webpack --config webpack.config.dev.js",
+    "build:prod": "yarn clear && npx webpack --config webpack.config.prod.js",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
-    "copyIndex": "cp index.html ./dist/index.html",
-    "copyDetail": "cp detail.html ./dist/detail.html",
-    "clear": "rm -r dist"
+    "copyIndex": "cp ./src/index.html ./dist/index.html",
+    "copyDetail": "cp ./src/detail.html ./dist/detail.html",
+    "clear": "vnrm dist"
   },
+  "sideEffects": [
+    "**/*.css",
+    "**/*.scss"
+  ],
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
